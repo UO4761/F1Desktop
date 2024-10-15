@@ -80,7 +80,7 @@ aside strong{
 
 /*Especificidad: 001*/
 table{
-    width: 100%;
+    max-width: 100%;
     border: 2px solid #034687;
     border-collapse: collapse;
     /*Hereda de body: color: #151b25;*/
