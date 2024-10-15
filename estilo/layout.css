@@ -2,6 +2,7 @@
 
 /*Especificidad: 002*/
 header, nav {
+    flex-wrap: wrap;
     display: flex;
     flex-direction: row;
     
