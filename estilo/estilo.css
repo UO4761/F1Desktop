@@ -108,3 +108,9 @@ td {
     /*Hereda de body: color: #151b25;*/
     background-color: #fff;
 }
+
+/*Especificidad: 001*/
+video{
+    width: 100%;
+    height: auto;
+}
