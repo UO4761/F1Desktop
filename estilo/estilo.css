@@ -24,6 +24,7 @@ span {
 header {
     background-color: #034687;
     /*Hereda de body color: #151b25;*/
+    padding: 1em 2em;
 }
 
 /*Especificidad: 001*/
@@ -49,6 +50,7 @@ h1 a {
 nav a {
     /*Hereda de header: background-color: #034687; */
     color: #F9D7D7;
+    padding: 1em;
 }
 
 /*Especificidad: 023*/

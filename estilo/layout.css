@@ -1,0 +1,13 @@
+/* Jose Ángel Martínez Santos UO4761*/
+
+/*Especificidad: 002*/
+header, nav {
+    display: flex;
+    flex-direction: row;
+    
+}
+nav {
+    flex: 1;
+    align-items: center;
+    justify-content:flex-end;
+}
