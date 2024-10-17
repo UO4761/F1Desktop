@@ -16,6 +16,7 @@ body {
     background-color: #dbe8e1;
 }
 
+/*Especificidad: 001*/
 span {
     font-size: 0.8em;
 }
@@ -51,6 +52,7 @@ nav a {
     /*Hereda de header: background-color: #034687; */
     color: #F9D7D7;
     padding: 1em;
+    text-decoration: none;
 }
 
 /*Especificidad: 023*/
@@ -117,7 +119,13 @@ img, video{
     height: auto;
 }
 
-@media screen and (max_width: 465px){
+/*Especificidad: 011*/
+a.active {
+    /*hereda de body background-color: #dbe8e1;*/
+    color: #fff;
+}   
+
+@media  (max-width: 465px){
     span {
         display: none;
     }
