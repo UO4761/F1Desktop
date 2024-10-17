@@ -21,7 +21,7 @@ span {
     font-size: 0.8em;
 }
 
-@media  (max-width: 465px){
+@media screen (max-width: 465px){
     span {
         display: none;
     }
