@@ -16,7 +16,7 @@ nav {
 }
 
 @media (max-width: 465px){
-    nav {
-        flex-flow: column;
+    header nav{
+        flex-direction: column;
     }
 }
