@@ -16,8 +16,7 @@ nav {
 }
 
 @media (max-width: 465px){
-    nav{
-        flex: 1 200px;
+    nav {
         flex-flow: column;
     }
 }
