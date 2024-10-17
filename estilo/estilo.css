@@ -21,6 +21,12 @@ span {
     font-size: 0.8em;
 }
 
+@media  (max-width: 465px){
+    span {
+        display: none;
+    }
+}
+
 /*Especificidad: 001*/
 header {
     background-color: #034687;
@@ -58,6 +64,12 @@ nav a {
 /*Especificidad: 023*/
 main>section:last-of-type a:hover {
     font-size: 1.1em;
+}
+
+/*Especificidad: 013*/
+main>section:last-of-type a{
+    /*Hereda de body: background-color: ##dbe8e1;*/
+    color: #034687;
 }
 
 /*Especificidad: 011*/
@@ -125,8 +137,3 @@ a.active {
     color: #fff;
 }   
 
-@media  (max-width: 465px){
-    span {
-        display: none;
-    }
-}
