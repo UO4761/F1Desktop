@@ -15,7 +15,7 @@ nav {
     justify-content:flex-end;
 }
 
-@media (max-width: 465px){
+@media sreen (max-width: 465px){
     nav{
         flex-direction: column;
     }
